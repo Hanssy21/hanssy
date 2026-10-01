@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=no"
+  >
+
+  <title>Murciélago Pixel Art</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="game">
+
+    <!-- =================================
+         MURCIÉLAGO + MARCA DE AGUA
+    ================================== -->
+
+    <div class="character">
+
+      <div id="bat" class="bat"></div>
+
+      <span class="watermark">
+        HANSSY ROY
+      </span>
+
+    </div>
+
+
+    <!-- =================================
+         CONTROLES PARA MÓVIL
+    ================================== -->
+
+    <div class="mobile-controls">
+
+      <!-- ARRIBA -->
+      <button
+        class="arrow up"
+        data-key="ArrowUp"
+        aria-label="Mover arriba"
+      >
+        ▲
+      </button>
+
+
+      <!-- IZQUIERDA / ABAJO / DERECHA -->
+
+      <div class="middle-arrows">
+
+        <button
+          class="arrow"
+          data-key="ArrowLeft"
+          aria-label="Mover izquierda"
+        >
+          ◀
+        </button>
+
+        <button
+          class="arrow"
+          data-key="ArrowDown"
+          aria-label="Mover abajo"
+        >
+          ▼
+        </button>
+
+        <button
+          class="arrow"
+          data-key="ArrowRight"
+          aria-label="Mover derecha"
+        >
+          ▶
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <!-- =================================
+         TEXTO PARA PC
+    ================================== -->
+
+    <div class="controls-text">
+      Usa las flechas del teclado
+    </div>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
