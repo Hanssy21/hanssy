@@ -110,7 +110,7 @@ body {
     Tamaño del pixel art
   */
 
-  transform: scale(6);
+  transform: scale(7);
 
   transform-origin: center;
 
@@ -129,6 +129,18 @@ body {
   height: 1px;
 
   background: #222;
+}
+
+
+/* =================================
+   OJOS DEL MURCIÉLAGO
+================================= */
+
+.pixel.eye {
+  background: #ff1744;
+
+  box-shadow:
+    0 0 2px #ff1744;
 }
 
 
@@ -259,7 +271,7 @@ body {
 @media (max-width: 799px) {
 
   .bat {
-    transform: scale(5);
+    transform: scale(6);
   }
 
   .watermark {
